@@ -1,0 +1,39 @@
+~~What is an ALGORITHM?
+-A set of simple instructions to complete a task IE A function
+-Computers aren't smart, they no intuition: an algorithm tells them everything step by step in a language they can understand.
+ Examples of algorithmic problem solving:
+
+ // Problem: Display an array's contents along
+// with the index number of each array item.
+
+// First, we'll need an array with some items in it
+
+// Next, we'll need to iterate (loop) over the array
+
+// Within our loop, we'll log each array item to the console
+// within this log statement, we'll concatenate (add) together
+// the array item along with the index number we're currently on
+
+-->Adding code to the algorithm
+
+// First, we'll need an array with some items in it
+var my_arr = ["giraffe", "zebra", "antelope"];
+// Next, we'll need to iterate (loop) over the array
+for(i = 0; i < my_arr.length; i++){
+
+
+// Within our loop, we'll log each array item to the console
+// within this log statement, we'll concatenate (add) together
+// the array item with the index number we're currently on
+  console.log(i + " " + my_arr[i]);
+}
+
+~~The keyword DEBUGGER!
+-the keyword, 'debugger' allows for breaks in your scripts
+-the function will stop your code, with the option of continuing on in the developer tools
+
+EX:
+console.log("hello world")
+debugger;
+alert('I think I found the bug!')
+// the alert will not fire while debugger is on (developer tools)2
