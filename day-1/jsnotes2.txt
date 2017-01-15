@@ -1,0 +1,46 @@
+~~A VARIABLE is simply a container for a value. 	
+EX: 
+- var name = "Zach";
+- var numberOfWidgets = 10;
+- var isCodingCool = true;
+ 
+ ~~An ARRAY is used to hold a collection of data, of any data type. They can hold multiple data types.
+ EX:
+ ["Snoopy", "Charlie Brown", "Patty", "Violet"]
+ [11, 15, 25, 48, 69, "elephant"]
+ 
+ ARRAYS can also be stored INSIDE of variables.
+ EX:
+ var class_names = ["Julie", "Sophie", "Rob", "John"]
+
+ Once you've declared an array, you can retieve the items inside of it using their indices. The first item always has an index of 0. 
+ EX: ["charlie brown", "snoopy"]
+ "charlie brown" has an index of 0, while "snoopy" has an index of 1
+
+ An Array can store other Arrays in Multi-dimensional Arrays.
+ EX:  var cars = [["Porsche", "Camero"], ["Camry" "Prius"]]
+
+ To access the first array inside then the first item in the array you would use ; 
+
+ console.log(cars[0][0])
+ -->"Porsche
+
+ To access the the second array then the first item in that array you would use ;
+ console.log(cars[1][0])
+
+ the first [] calls the array the second [] calls the item inside the array
+
+ ~~Another Data type: OBJECTS
+ OBJECTS are kinda like arrays, but you the define the keys.
+EX:
+var car = {make: "Toyota", model: "Prius"}
+
+console.log(car['make'])
+-->"Toyota"
+
+OBJECTS: dot notation 
+You can use 'dot notation' to get data out of an object 
+EX:
+var user = {firstName: "Lucille", lastName: "Bluth"}
+console.log(user.firstName)
+-->"Lucille"

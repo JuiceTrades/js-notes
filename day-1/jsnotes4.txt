@@ -1,0 +1,97 @@
+~~What is logic? (as it pertains to programming)
+- logic is the control flow of your program
+- think of logic ass a river that branches off in a few different ways
+-it allows you to make the computer do the thinking for you!
+
+~~ the IF statement
+The IF statement allows you to run code only if a certain test evaluates as TRUE 
+
+EX:
+
+if(5>10){
+  console.log("You'll never see this in the console because 5 is not greater than 10");
+}
+
+if(5<10){
+  console.log("But you'll definitely see this");
+}
+
+~~The ELSE statement
+The ELSE statement runs only if the statement in the IF statement is FALSE
+
+EX:
+
+if(5>10){
+  console.log("You'll never see this because 5 is not greater than 10");
+} else{
+  console.log("You will see this though, since 5 < 10 evaluates to false");
+}
+
+~~the ELSE IF statement
+If you want to run another test before getting to ELSE, you'll want to use ELSE IF
+
+EX:
+
+if(5>10){
+  console.log("You'll never see this because 5 is not greater than 10");
+}else if(5===5){
+  console.log("Yes, 5 really is equal to 5, so this will show up in the console")
+}else{
+  console.log("We won't get here because our else if evaluates to true");
+}
+
+
+~~FUNCTIONS
+-a function is a way to encapsulate code for later use
+-it can take arguments which are used as variables inside the function 
+(Think of it like this:
+var me = "Domitrius Clark" == function me("Domitrius Clark")
+-it usually returns a value, which can be used later on or displayed immediately
+
+EX:
+
+// Declare a function called someName that takes
+// two arguments: numberOne and otherNumber
+function someName(numberOne, otherNumber){
+  // return the sum of numberOne, 10, and otherNumber
+  return numberOne + 10 + otherNumber;
+}
+// call your new function, giving it 2 argument values
+// numberOne = 4, otherNumber = 14
+// log the result to the console
+console.log(someName(4, 14));
+// Calling a function is also known as "invoking" it
+
+~~LOOPS
+-A loop is a block of code that gets repeated for a defined amount of iterations (for loop) or until a certain condition is met (while)
+-Typically one variable or condition in the loop changes each time it is run.
+
+LOOPS - FOR
+EX:
+
+for(var i = 0; i<10; i++){
+  console.log(i)
+}
+
+>>0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+beers = ["Lagunitas", "Peak"]
+for(var i = 0; i< beers.length; i++){
+  console.log(beers[i])
+}
+
+>>"Lagunitas"
+"Peak"
+
+
+
+

@@ -1,0 +1,19 @@
+Javascript allows you to interact with the Document Object Model (DOM) so you can do things like :
+
+-Showing and hiding elements
+-Animating elements 
+-Replacing elements with other elements
+-Making requests to the server without reloading this page
+
+EX of using the console to check your Javascript: 
+console.log("insert variable here")
+
+Basic Data Types:
+-String : "Hello World"
+-Number : 5,55, 5.5 , 5000 (all numbers in JS are floats)
+-Boolean : true, false
+-Undefined (no value)
+
+
+
+
